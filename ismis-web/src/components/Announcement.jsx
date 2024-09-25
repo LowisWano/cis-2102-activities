@@ -1,5 +1,6 @@
 import '../styles/style.css'
 
+// helloooo
 const Announcement = ({ message }) => {
     return (
         <>
