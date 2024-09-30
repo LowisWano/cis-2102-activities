@@ -1,13 +1,9 @@
-import '../styles/style.css'
 
 const Header = () => {
-    const imgStyle = {
-        height: '90px'
-    }
     return (
         <>
-            <header className='header' >
-                <img style={imgStyle} src="/usc3.jfif" alt="usc logo" />
+            <header className='p-3' >
+                <img className="h-11" src="/usc-header.png" alt="usc logo" />
             </header>
         </>
     )

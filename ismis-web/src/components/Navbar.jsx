@@ -1,10 +1,9 @@
-    import '../styles/style.css'
 
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar" >
-                <ul className='nav-items'>
+            <nav className="bg-usc-green flex justify-start text-white px-5 py-4" >
+                <ul className='flex flex-row gap-20'>
                     <li>Home</li>
                     <li>Features</li>
                     <li>Privacy Policy Statement</li>
