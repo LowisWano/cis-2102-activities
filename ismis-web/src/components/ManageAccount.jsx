@@ -21,7 +21,7 @@ export default function ManageAccount() {
 
   return (
     <>
-      <h1 className="">Manage Account</h1>
+      <h3 className='text-xl font-bold text-usc-green' >MANAGE ACCOUNT</h3>
       <form className="w-full max-w-5xl" onSubmit={handleSubmit}>
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">

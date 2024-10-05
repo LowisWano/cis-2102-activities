@@ -6,6 +6,7 @@ const Announcement = ({ message }) => {
                 <h3 className="heading">{message.name}</h3>
                 <p className=" text-gray-500">Author: {message.email}</p>
                 <p className=" text-gray-500">Post id: {message.postId}</p>
+                <p className=" text-gray-500">id: {message.id}</p>
                 <p>{message.body}</p>
             </div>
         </>

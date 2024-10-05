@@ -8,12 +8,17 @@ const Announcements = () => {
     .then(response => response.json())
     .then(data => setMessages(data))
   }, [])
-  const inlineStyle = {
-      color: "rgb(0, 92, 0)"
+
+  if(messages.length === 0){
+    return(
+      <div>
+        loading data...
+      </div>
+    )
   }
   return (
       <>
-          <h3 style={inlineStyle} className='text-xl font-bold' >ACADEMIC ANNOUNCEMENTS</h3>
+          <h3 className='text-xl font-bold text-usc-green' >ACADEMIC ANNOUNCEMENTS</h3>
               {
                   messages.map((message) => (
                       <Announcement key={message.id} message={message} />
